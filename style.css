@@ -1,0 +1,97 @@
+*{
+
+    margin:  0%;
+    margin:  0%;
+
+}
+
+body{
+    font-family:'poppins',sans-serif
+
+}
+
+
+container{
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 96%
+}
+
+/*Header area start */
+.header-area{
+    background-color: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 133px;
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    color:black;
+}
+.header ul li {
+    display: inline-block;
+
+}
+.header ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:black;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+/*Header area end */
+
+.banner-area{
+    background-image: url(images/welcome-banner.png);
+    background-image: cover ;
+    height: 683px;
+    background-repeat: no-repeat ;
+}
+
+.banner h1{
+    background-color: #fff ;
+    width: 359px;
+    height:83px;
+    margin-top:20px;
+}
+
+.banner p{
+    background-color: #fff ;
+    width: 359px;
+    height: 83px;
+    margin-top: 20px;
+}
+
+.relationship-area{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .relationships-area{
+     display: block;
+    }
+}
+
+@media screen and (max-width:668px) {
+          .relationship-area{
+            display: block;
+   }
+.relationship-img-area{
+    margin-top:30px;
+}
+
+}
+
+
+
+
+
